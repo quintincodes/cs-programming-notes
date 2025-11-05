@@ -3,9 +3,11 @@
 #java #programming #java #core-concepts #data-types
 
 created: 1723292400000
-updated: 1723292400000
+updated: 1732750000000
 
 ---
+
+> Last reviewed: 2025-11-28
 
 ## Overview
 
