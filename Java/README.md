@@ -2,7 +2,7 @@
 title: Java Programming Hub
 #tags: #java #programming #oop #fundamentals
 created: 1739316224577
-updated: 1724893200000
+updated: 1732750000000
 ---
 
 # 🔶 Java Programming Hub
@@ -10,7 +10,7 @@ updated: 1724893200000
 _Object-Oriented Programming Language for Enterprise and Cross-Platform Development_
 
 > **Learning Focus**: Core Java concepts, data types, I/O operations, and fundamental programming patterns
-> 📅 **Last Updated**: August 28, 2025
+> 📅 **Last Updated**: November 28, 2025
 
 ---
 
