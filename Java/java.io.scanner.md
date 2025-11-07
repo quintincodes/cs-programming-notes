@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Scanner
----
+
+## title: Scanner
 
 #java #programming
 
 created: 1740600000000
 updated: 1740600000000
----
 
+---
 
 <!--#region styles-->
 
@@ -45,6 +44,7 @@ scanner.close();
 ```java
 String fullLine = scanner.nextLine();
 ```
+
 - Reads a complete line of input (including spaces)
 - Returns the input as a String
 - Advances the scanner past the current line
@@ -54,6 +54,7 @@ String fullLine = scanner.nextLine();
 ```java
 String nextWord = scanner.next();
 ```
+
 - Reads the next token (word) up to a whitespace
 - Returns the token as a String
 - Useful for reading single words
@@ -63,6 +64,7 @@ String nextWord = scanner.next();
 ```java
 int number = scanner.nextInt();
 ```
+
 - Reads the next token as an integer
 - Throws InputMismatchException if the next token is not a valid integer
 - **Note:** Leaves the newline character in the input buffer
@@ -72,6 +74,7 @@ int number = scanner.nextInt();
 ```java
 boolean flag = scanner.nextBoolean();
 ```
+
 - Reads the next token as a boolean value
 - Returns true for "true" and false for "false" (case-insensitive)
 - Throws InputMismatchException if the next token is not a valid boolean
@@ -116,32 +119,35 @@ import java.util.Scanner;
 public class UserInputExample {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
-        
+
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
         scanner.nextLine(); // Consume newline
-        
+
         System.out.print("Enter your city: ");
         String city = scanner.nextLine();
-        
+
         System.out.print("Are you a student? (true/false): ");
         boolean isStudent = scanner.nextBoolean();
-        
+
         System.out.println("\nUser Information:");
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("City: " + city);
         System.out.println("Student: " + isStudent);
-        
+
         scanner.close();
     }
 }
 ```
 
 ## Related Links
+
 - [[java/io/printf]]
 - [[java/core_concepts/data_types/primitive]]
 - [[java/exceptions]]
+
+> **Last reviewed**: November 28, 2025
