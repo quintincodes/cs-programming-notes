@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Callback
----
+
+## title: Callback
 
 #javascript #programming #javascript #core-concepts
 
 created: 1738621362579
 updated: 1739142795138
----
 
+---
 
 <!--#region styles-->
 
@@ -57,3 +56,5 @@ updated: 1739142795138
 ---
 
 ## 11. Additional Notes
+
+> **Last reviewed**: November 28, 2025
