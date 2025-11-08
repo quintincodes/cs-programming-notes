@@ -7,9 +7,11 @@
 #javascript #programming #javascript #core-concepts
 
 created: 1736370797095
-updated: 1738275940326
+updated: 1732750000000
 
 ---
+
+> Last reviewed: 2025-11-28
 
 <!--#region styles-->
 
