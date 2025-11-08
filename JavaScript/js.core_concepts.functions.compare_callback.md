@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Compare_callback
----
+
+## title: Compare_callback
 
 #javascript #programming #javascript #core-concepts
 
 created: 1739054277697
 updated: 1739142668604
----
 
+---
 
 <!--#region styles-->
 
@@ -57,3 +56,5 @@ updated: 1739142668604
 ---
 
 ## 11. Additional Notes
+
+> **Last reviewed**: November 28, 2025
