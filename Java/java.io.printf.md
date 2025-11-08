@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Printf
----
+
+## title: Printf
 
 #java #programming
 
 created: 1740600000000
 updated: 1740600000000
----
 
+---
 
 <!--#region styles-->
 
@@ -29,45 +28,48 @@ System.out.printf(format, arguments...);
 ```
 
 Where:
+
 - `format` is a string containing text and format specifiers
 - `arguments` are the values to be formatted and inserted into the format string
 
 ## Format Specifiers
 
 The general syntax for format specifiers is:
+
 ```
 %[flags][width][.precision]conversion-character
 ```
 
 ### Common Conversion Characters
 
-| Character | Description | Example |
-|-----------|-------------|---------|
-| `%d` | Integer (decimal) | `%d` → `123` |
-| `%f` | Floating-point number | `%f` → `123.456000` |
-| `%s` | String | `%s` → `Hello` |
-| `%c` | Character | `%c` → `A` |
-| `%b` | Boolean | `%b` → `true` |
-| `%x` | Integer (hexadecimal) | `%x` → `7b` |
-| `%o` | Integer (octal) | `%o` → `173` |
-| `%e` | Scientific notation | `%e` → `1.234560e+02` |
-| `%n` | Platform-specific line separator | `%n` → newline |
-| `%%` | Literal percent sign | `%%` → `%` |
+| Character | Description                      | Example               |
+| --------- | -------------------------------- | --------------------- |
+| `%d`      | Integer (decimal)                | `%d` → `123`          |
+| `%f`      | Floating-point number            | `%f` → `123.456000`   |
+| `%s`      | String                           | `%s` → `Hello`        |
+| `%c`      | Character                        | `%c` → `A`            |
+| `%b`      | Boolean                          | `%b` → `true`         |
+| `%x`      | Integer (hexadecimal)            | `%x` → `7b`           |
+| `%o`      | Integer (octal)                  | `%o` → `173`          |
+| `%e`      | Scientific notation              | `%e` → `1.234560e+02` |
+| `%n`      | Platform-specific line separator | `%n` → newline        |
+| `%%`      | Literal percent sign             | `%%` → `%`            |
 
 ### Flags
 
-| Flag | Description | Example |
-|------|-------------|---------|
-| `-` | Left-justify | `%-10s` → `"Hello     "` |
-| `+` | Include sign | `%+d` → `+123` |
-| `0` | Zero padding | `%05d` → `00123` |
-| `,` | Group separator | `%,d` → `1,234,567` |
-| `(` | Negative in parentheses | `%(d` → `(123)` for negative values |
-| ` ` (space) | Space before positive numbers | `% d` → ` 123` |
+| Flag        | Description                   | Example                             |
+| ----------- | ----------------------------- | ----------------------------------- |
+| `-`         | Left-justify                  | `%-10s` → `"Hello     "`            |
+| `+`         | Include sign                  | `%+d` → `+123`                      |
+| `0`         | Zero padding                  | `%05d` → `00123`                    |
+| `,`         | Group separator               | `%,d` → `1,234,567`                 |
+| `(`         | Negative in parentheses       | `%(d` → `(123)` for negative values |
+| ` ` (space) | Space before positive numbers | `% d` → ` 123`                      |
 
 ### Width and Precision
 
 - Width: Minimum number of characters to output
+
   ```java
   System.out.printf("%10s", "Hello"); // "     Hello"
   ```
@@ -163,3 +165,5 @@ System.out.printf("Amount: $%,.2f%n", money);  // Amount: $1,234.56
 - [[java/string/format-specifiers]]
 - [[java/text/decimal-format]]
 - [[java/io/scanner]]
+
+> **Last reviewed**: November 28, 2025
