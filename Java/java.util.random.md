@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Random
----
+
+## title: Random
 
 #java #programming
 
 created: 1740600000000
 updated: 1740595879005
----
 
+---
 
 <!--#region styles-->
 
@@ -148,5 +147,7 @@ String randomString = generateRandomString(10);
 
 ## Related Links
 
--   [[java/math]]
--   [[java/security/secure-random]]
+- [[java/math]]
+- [[java/security/secure-random]]
+
+> **Last reviewed**: November 28, 2025
