@@ -7,9 +7,11 @@
 #java #programming #java #core-concepts
 
 created: 1739372567649
-updated: 1739372567649
+updated: 1732750000000
 
 ---
+
+> Last reviewed: 2025-11-28
 
 <!--#region styles-->
 
