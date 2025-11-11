@@ -2,8 +2,10 @@
 title: Java Fundamentals
 #tags: #java #programming #fundamentals #core-concepts
 created: 1739571858911
-updated: 1724457600000
+updated: 1732750000000
 ---
+
+> Last reviewed: 2025-11-28
 
 <!--#region styles-->
 <!--#endregion-->
