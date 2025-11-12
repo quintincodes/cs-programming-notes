@@ -7,13 +7,15 @@
 #javascript #programming #javascript #core-concepts
 
 created: 1739919042665
-updated: 1739919088519
+updated: 1732750000000
 
 ---
 
 <!--#region styles-->
 
 <!--#endregion-->
+
+> Last reviewed: 2025-11-28
 
 # Dot Operator
 
