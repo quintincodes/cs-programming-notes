@@ -127,3 +127,5 @@ console.log(x < 10); // true
 console.log(x >= 5); // true
 console.log(x <= 4); // false
 ```
+
+> **Last reviewed**: November 28, 2025
