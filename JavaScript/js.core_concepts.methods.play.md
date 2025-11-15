@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Play
----
+
+## title: Play
 
 #javascript #programming #javascript #core-concepts
 
 created: 1736717434390
 updated: 1738191638839
----
 
+---
 
 <!--#region styles-->
 
@@ -23,7 +22,7 @@ updated: 1738191638839
 ## Syntax
 
 ```js
-const media = document.querySelector('video');
+const media = document.querySelector("video");
 media.play();
 ```
 
@@ -36,25 +35,25 @@ The `play()` method does not take any parameters.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Play Video</title>
-    </head>
-    <body>
-        <video controls>
-            <source src="video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-        </video>
-        <button onclick="playVideo()">Play Video</button>
-        <script>
-            function playVideo() {
-                const video = document.querySelector('video');
-                video.play();
-            }
-        </script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play Video</title>
+  </head>
+  <body>
+    <video controls>
+      <source src="video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <button onclick="playVideo()">Play Video</button>
+    <script>
+      function playVideo() {
+        const video = document.querySelector("video");
+        video.play();
+      }
+    </script>
+  </body>
 </html>
 ```
 
@@ -72,7 +71,9 @@ The `play()` method will not work if the video is not loaded or if the video is 
 
 ## Links
 
--   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play)
--   [Can I Use](https://caniuse.com/?search=play)
--   [W3 Schools](https://www.w3schools.com/tags/av_met_play.asp)
--   [Video and Audio APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play)
+- [Can I Use](https://caniuse.com/?search=play)
+- [W3 Schools](https://www.w3schools.com/tags/av_met_play.asp)
+- [Video and Audio APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs)
+
+> **Last reviewed**: November 28, 2025
