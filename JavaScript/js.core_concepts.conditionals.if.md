@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: If
----
+
+## title: If
 
 #javascript #programming #javascript #core-concepts
 
 created: 1738163217959
 updated: 1738275940384
----
 
+---
 
 <!--#region styles-->
 
@@ -35,3 +34,5 @@ x is greater than 5
 > <b>IMPORTANT:</b>
 > 📌 The condition in an if statement can evaluate anything—not just the block of code within it.
 > 📌 JavaScript's strict equality operator (===) should be used almost all the time.
+
+> **Last reviewed**: November 28, 2025
