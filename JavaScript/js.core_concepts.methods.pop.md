@@ -334,4 +334,6 @@ console.log(arr); // ['apple', 'banana', 'cherry']
 
 ## Edge Cases
 
+> **Last reviewed**: November 28, 2025
+
 ## Links
