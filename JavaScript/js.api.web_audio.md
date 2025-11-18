@@ -1,16 +1,17 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Web_audio
----
+
+## title: Web_audio
 
 #javascript #programming #javascript #api
 
 created: 1738884208814
-updated: 1738885808814
+updated: 1732750000000
+
 ---
 
+> Last reviewed: 2025-11-28
 
 <!--#region styles-->
 
@@ -26,5 +27,5 @@ The Web Audio API involves handling audio operations inside an audio context, an
 
 ## Use Cases
 
--   <b>Audio Visualization:</b> You can use the Web Audio API to create visualizations that react to the audio being played.
--   <b>Audio Effects:</b> You can use the Web Audio API to create audio effects like reverb, delay, and distortion.
+- <b>Audio Visualization:</b> You can use the Web Audio API to create visualizations that react to the audio being played.
+- <b>Audio Effects:</b> You can use the Web Audio API to create audio effects like reverb, delay, and distortion.
