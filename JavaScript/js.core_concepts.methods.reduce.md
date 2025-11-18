@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Reduce
----
+
+## title: Reduce
 
 #javascript #programming #javascript #core-concepts
 
 created: 1738708823732
 updated: 1738796995247
----
 
+---
 
 <!--#region styles-->
 
@@ -28,12 +27,12 @@ array.reduce(callback(accumulator, currentValue, index, array), initialValue);
 
 ## Parameters
 
--   `callback`: A function that is called on each element of the array. It takes four arguments:
+- `callback`: A function that is called on each element of the array. It takes four arguments:
 
-    -   `accumulator`: The accumulator accumulates the callback's return values. It is the accumulated value previously returned in the last invocation of the callback, or `initialValue`, if supplied.
-    -   `currentValue`: The current element being processed in the array.
-    -   `index`: The index of the current element being processed in the array.
-    -   `array`: The array `reduce()` was called upon.
+  - `accumulator`: The accumulator accumulates the callback's return values. It is the accumulated value previously returned in the last invocation of the callback, or `initialValue`, if supplied.
+  - `currentValue`: The current element being processed in the array.
+  - `index`: The index of the current element being processed in the array.
+  - `array`: The array `reduce()` was called upon.
 
 ## Return Values
 
@@ -47,7 +46,7 @@ The return value of the `reduce()` method is the accumulated value that results 
 const numbers = [1, 2, 3, 4, 5];
 
 const sum = numbers.reduce(
-    (accumulator, currentValue) => accumulator + currentValue
+  (accumulator, currentValue) => accumulator + currentValue
 );
 
 console.log(sum); // Output: 15
@@ -55,12 +54,14 @@ console.log(sum); // Output: 15
 
 ## Applicable To
 
--   arrays
+- arrays
 
 ## Edge Cases
 
--   If the array is empty and no `initialValue` is provided, a `TypeError` is thrown.
+- If the array is empty and no `initialValue` is provided, a `TypeError` is thrown.
 
 ## Links
 
--   [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+- [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
+> **Last reviewed**: November 28, 2025
