@@ -198,3 +198,5 @@ console.log(arr); // [5, 4, 3, 2, 1]
 ## Links
 
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+
+> **Last reviewed**: November 28, 2025
