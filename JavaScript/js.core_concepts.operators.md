@@ -7,9 +7,11 @@
 #javascript #programming #javascript #core-concepts
 
 created: 1734086003639
-updated: 1734089921312
+updated: 1732750000000
 
 ---
+
+> Last reviewed: 2025-11-28
 
 # Operators in JavaScript
 
