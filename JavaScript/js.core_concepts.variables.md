@@ -7,13 +7,15 @@
 #javascript #programming #javascript #core-concepts
 
 created: 1735912791762
-updated: 1738275940313
+updated: 1732750000000
 
 ---
 
 <!--#region styles-->
 
 <!--#endregion-->
+
+> Last reviewed: 2025-11-28
 
 ## Terminologies
 
