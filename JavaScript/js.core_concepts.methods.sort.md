@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Sort
----
+
+## title: Sort
 
 #javascript #programming #javascript #core-concepts
 
 created: 1736370797095
 updated: 1738275940326
----
 
+---
 
 <!--#region styles-->
 
@@ -30,18 +29,18 @@ where `compareFunction` is an optional parameter that specifies a function that 
 
 ## Parameters
 
--   `compareFunction` (Optional) - Specifies a function that defines the sort order. If omitted, the array is sorted according to each character's Unicode code point value.
+- `compareFunction` (Optional) - Specifies a function that defines the sort order. If omitted, the array is sorted according to each character's Unicode code point value.
 
 ## Return Values
 
--   The sorted array.
+- The sorted array.
 
 ## Examples
 
 ### Example 1
 
 ```js
-const months = ['March', 'Jan', 'Feb', 'Dec'];
+const months = ["March", "Jan", "Feb", "Dec"];
 months.sort();
 console.log(months);
 // expected output: Array ["Dec", "Feb", "Jan", "March"]
@@ -62,8 +61,8 @@ in this example, the array is sorted as strings, so the default sort order is no
 
 ## Applicable To
 
--   JavaScript Arrays
--   JavaScript Typed Arrays
+- JavaScript Arrays
+- JavaScript Typed Arrays
 
 ## Edge Cases
 
@@ -91,5 +90,7 @@ in this example, the array is sorted numerically in descending order, with the `
 
 ## Links
 
--   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
--   [JavaScript.info](https://javascript.info/array-methods#sort)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- [JavaScript.info](https://javascript.info/array-methods#sort)
+
+> **Last reviewed**: November 28, 2025
