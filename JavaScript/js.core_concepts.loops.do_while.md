@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Do_while
----
+
+## title: Do_while
 
 #javascript #programming #javascript #core-concepts
 
 created: 1738170968099
 updated: 1738275940369
----
 
+---
 
 <!--#region styles-->
 
@@ -22,7 +21,7 @@ The `do-while` loop is similar to the `while` loop, but the code block is execut
 
 ```javascript
 do {
-    // code to be executed
+  // code to be executed
 } while (condition);
 ```
 
@@ -31,9 +30,11 @@ Here is an example of a `do-while` loop:
 ```javascript
 let i = 0;
 do {
-    console.log(i);
-    i++;
+  console.log(i);
+  i++;
 } while (i < 5);
 ```
 
 In this example, the loop will run five times, and the output will be the same as the `for` and `while` loop examples. The `do-while` loop is useful when you want to execute the code block at least once before checking the condition.
+
+> **Last reviewed**: November 28, 2025
