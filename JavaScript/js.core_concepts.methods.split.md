@@ -258,3 +258,5 @@ The `split()` method is applicable to all JavaScript strings.
 - [W3Schools](https://www.w3schools.com/jsref/jsref_split.asp)
 - [JavaScript.info](https://javascript.info/array-methods#split)
 - [Can I Use](https://caniuse.com/?search=split)
+
+> **Last reviewed**: November 28, 2025
