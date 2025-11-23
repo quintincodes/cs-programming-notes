@@ -122,3 +122,5 @@ The `forEach()` method is applicable to all arrays.
 ## Links
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+> **Last reviewed**: November 28, 2025
