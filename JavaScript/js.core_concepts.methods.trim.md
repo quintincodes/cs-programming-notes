@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Trim
----
+
+## title: Trim
 
 #javascript #programming #javascript #core-concepts
 
 created: 1736972360164
 updated: 1738275940315
----
 
+---
 
 <!--#region styles-->
 
@@ -37,7 +36,7 @@ A new string representing the calling string stripped of whitespace from both en
 ## Examples
 
 ```js
-console.log('   foo  '.trim()); // 'foo'
+console.log("   foo  ".trim()); // 'foo'
 ```
 
 ## Applicable To
@@ -47,11 +46,13 @@ The trim method is applicable to all strings.
 ## Edge cases
 
 ```js
-console.log('   foo  '.trim()); // 'foo'
-console.log('foo'.trim()); // 'foo'
-console.log(''.trim()); // ''
+console.log("   foo  ".trim()); // 'foo'
+console.log("foo".trim()); // 'foo'
+console.log("".trim()); // ''
 ```
 
 ## Links
 
--   [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim)
+
+> **Last reviewed**: November 28, 2025
