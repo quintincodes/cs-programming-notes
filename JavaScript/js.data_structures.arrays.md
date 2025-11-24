@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Arrays
----
+
+## title: Arrays
 
 #javascript #programming
 
 created: 1733966144654
 updated: 1738275940309
----
 
+---
 
 <!--#region styles-->
 
@@ -75,3 +74,5 @@ You can access an array element by referring to the index number. The index numb
 8. `join()`: The `join()` method joins all elements of an array into a string. eg. `cars.join(" - ");` The `join()` method joins all elements of the `cars` array into a string separated by `" - "`.
 9. `reverse()`: The `reverse()` method reverses the order of the elements in an array. eg. `cars.reverse();` The `reverse()` method reverses the order of the elements in the `cars` array.
 10. `sort()`: The `sort()` method sorts the elements of an array. eg. `cars.sort();` The `sort()` method sorts the elements of the `cars` array alphabetically.
+
+> **Last reviewed**: November 28, 2025
