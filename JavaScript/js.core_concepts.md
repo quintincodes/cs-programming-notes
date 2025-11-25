@@ -5,9 +5,11 @@
 title: JavaScript Core Concepts
 #tags: #javascript #programming #core-concepts #fundamentals
 created: 1735912262931
-updated: 1724457600000
+updated: 1732750000000
 
 ---
+
+> Last reviewed: 2025-11-28
 
 <!--#region styles-->
 <!--#endregion-->
