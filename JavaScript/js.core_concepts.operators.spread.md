@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Spread
----
+
+## title: Spread
 
 #javascript #programming #javascript #core-concepts
 
 created: 1738969862385
 updated: 1739906559064
----
 
+---
 
 <!--#region styles-->
 
@@ -54,7 +53,7 @@ The spread operator is used in the following ways:
 
     ```javascript
     function sum(x, y, z) {
-        return x + y + z;
+      return x + y + z;
     }
     const numbers = [1, 2, 3];
     console.log(sum(...numbers)); // Output: 6
@@ -67,3 +66,5 @@ The spread operator is used in the following ways:
     const obj2 = { ...obj1, c: 3 }; // copies obj1 into obj2 and adds property c
     console.log(obj2); // Output: { a: 1, b: 2, c: 3 }
     ```
+
+> **Last reviewed**: November 28, 2025
