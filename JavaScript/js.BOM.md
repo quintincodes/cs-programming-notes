@@ -57,3 +57,5 @@ console.log('Browser Name: ' + browserName);
 console.log('Browser Version: ' + browserVersion);
 // Get the user's screen width and height
 ```
+
+> **Last reviewed**: November 27, 2025
