@@ -1,16 +1,15 @@
-
 > **Note**: This note contained custom CSS styling. Check the CSS snippets in Obsidian settings.
 
 ---
-title: Selectors
----
+
+## title: Selectors
 
 #javascript #programming
 
 created: 1738359449554
 updated: 1738364562767
----
 
+---
 
 <!--#region styles-->
 
@@ -29,7 +28,7 @@ document.querySelector(selector);
 #### Example:
 
 ```js
-const paragraph = document.querySelector('p');
+const paragraph = document.querySelector("p");
 
 /* The above code will return the first paragraph element in the document and 
 assign it to the variable 'paragraph'. */
@@ -46,7 +45,7 @@ document.querySelectorAll(selector);
 #### Example:
 
 ```js
-const paragraphs = document.querySelectorAll('p');
+const paragraphs = document.querySelectorAll("p");
 
 /*The above code will return a static NodeList of all paragraph elements in the document and
  assign it to the variable 'paragraphs'.*/
@@ -65,7 +64,7 @@ document.getElementById(id);
 #### Example:
 
 ```js
-const myElement = document.getElementById('myId');
+const myElement = document.getElementById("myId");
 
 /*The above code will return the element with the ID 'myId' and
  assign it to the variable 'myElement'.*/
@@ -82,7 +81,7 @@ document.getElementsByClassName(className);
 #### Example:
 
 ```js
-const myElements = document.getElementsByClassName('myClass');
+const myElements = document.getElementsByClassName("myClass");
 
 /*The above code will return all elements with the class 'myClass' and
  assign them to the variable 'myElements'.*/
@@ -99,7 +98,7 @@ document.getElementsByTagName(tagName);
 #### Example:
 
 ```js
-const myElements = document.getElementsByTagName('p');
+const myElements = document.getElementsByTagName("p");
 
 /*The above code will return all paragraph elements in the document and
  assign them to the variable 'myElements'.*/
@@ -116,8 +115,10 @@ document.getElementsByName(name);
 #### Example:
 
 ```js
-const myElements = document.getElementsByName('myName');
+const myElements = document.getElementsByName("myName");
 
 /*The above code will return all elements with the name 'myName' and
  assign them to the variable 'myElements'.*/
 ```
+
+> **Last reviewed**: November 28, 2025
